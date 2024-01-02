@@ -15,7 +15,7 @@
 // console.log(**number); 
 
 let number = 1;
-console.log('03.js'); 
+
 console.log(number++); 
 console.log(++number); 
 console.log(number--) 
