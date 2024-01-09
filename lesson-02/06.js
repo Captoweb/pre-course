@@ -7,7 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let newPassword = structuredClone(passportWithAddress)
-console.log(newPassword.address.city)
-newPassword.address.city = 'Bobryisk'
-console.log(newPassword.address.city)
+passportWithAddress = structuredClone(passportWithAddress)
+console.log(passportWithAddress.address.city)
+passportWithAddress.address.city = 'Bobryisk'
+console.log(passportWithAddress.address.city)
