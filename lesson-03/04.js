@@ -61,5 +61,5 @@ const users = [
     }
 ];
 
-let newObj = users.filter(item => item.id % 2 === 0)
-console.log(newObj)
+let newObject = users.filter(item => item.id % 2 === 0)
+console.log(newObject)
