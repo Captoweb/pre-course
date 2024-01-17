@@ -19,7 +19,6 @@ const users2 = [
     },
 ];
     
-
 const newObj = {
     id: 4,
     user: 'Ivan',
@@ -27,6 +26,5 @@ const newObj = {
     address: 'Unknown'
 }
 ​
-
 users2.push(newObj)
 console.log(users2)
