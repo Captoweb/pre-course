@@ -32,7 +32,7 @@ const users3 = [
 ];
 
 users3.map((item, index) => {
-  users3[index]['isMarried'] = 'true'
+  users3[index]['isMarried'] = true
 })
 
 console.log(users3)
